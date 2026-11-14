@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana, Arial, Tahoma, Serif;
+    color:#565676;
+}
+
+body{
+    background-color: #d8dcff;
+    
+}
+
+.header{
+    height: 100px;
+    background-color: #aeadf0;
+    display:flex;
+    flex-direction: column;
+    margin:4px;
+    padding:4px;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-area{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc-body{
+    background-color: #c38d94;
+    height:500px;
+    width:400px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 10px 10px 5px 2px #aeafd0;
+}
+
+#text-area{
+    background-color: aliceblue;
+    height:70px;
+    width:350px;
+    border-radius: 10%;
+    margin:20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#row-one,
+#row-two,
+#row-three,
+#row-four{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nine,
+#eight,
+#seven,
+#six,
+#five,
+#four,
+#three,
+#two,
+#one,
+#zero,
+#plus,
+#minus,
+#divide,
+#multiply,
+#equals,
+#all-clear{
+    font-size:35px;
+    font-weight: 600;
+    background-color: #a76571;
+    border-radius: 50%;
+    height:70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 2px gray;
+}
