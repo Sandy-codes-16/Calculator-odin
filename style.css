@@ -89,3 +89,38 @@ body{
     align-items: center;
     box-shadow: 5px 5px 5px 2px gray;
 }
+
+#equals{
+    background-color: #d67229;
+}
+
+/*Adding Some Transistion*/
+.calc-body span {
+    transition: all 0.2s ease;
+}
+
+#nine:hover,
+#eight:hover,
+#seven:hover,
+#six:hover,
+#five:hover,
+#four:hover,
+#three:hover,
+#two:hover,
+#one:hover,
+#zero:hover,
+#plus:hover,
+#minus:hover,
+#divide:hover,
+#multiply:hover,
+#equals:hover,
+#all-clear:hover{
+    background-color: #565676;
+    color: white;
+    cursor: pointer;
+}
+
+.calc-body span:not(#text-area):active {
+    transform: scale(0.90);
+    transition: transform 0.08s ease;
+}
